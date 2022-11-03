@@ -98,8 +98,7 @@ public class Diziler {
 			System.out.println(dizi5[i]);
 		}
 		
-		
-		
+	
 	}
 
 }
