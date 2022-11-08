@@ -1,6 +1,6 @@
 package com.busecnky.ekim31;
 
-public class VeriTipleriStringDevam {
+public class VeriTipleriStringDevam001 {
 
 	public static void main(String[] args) {
 

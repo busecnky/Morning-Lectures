@@ -1,6 +1,6 @@
 package com.busecnky.kasim1;
 
-public class BreakContinue {
+public class BreakContinue002 {
 
 	public static void main(String[] args) {
 //1

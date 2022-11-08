@@ -2,7 +2,7 @@ package com.busecnky.ekim31;
 
 import java.util.Stack;
 
-public class Diziler {
+public class Diziler003 {
 
 	public static void main(String[] args) {
 

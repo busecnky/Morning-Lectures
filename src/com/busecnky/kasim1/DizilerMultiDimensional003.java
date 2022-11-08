@@ -1,6 +1,6 @@
 package com.busecnky.kasim1;
 
-public class DizilerMultiDimensional {
+public class DizilerMultiDimensional003 {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package com.busecnky.ekim31;
 
-public class AlgoritmaPerformans {
+public class AlgoritmaPerformans002 {
 
 	public static void main(String[] args) {
 

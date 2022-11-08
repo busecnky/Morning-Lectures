@@ -1,6 +1,6 @@
 package com.busecnky.kasim1;
 
-public class DiziSorusu {
+public class DiziSorusu001 {
 
 	public static void main(String[] args) {
 
