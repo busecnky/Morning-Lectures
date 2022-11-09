@@ -9,7 +9,9 @@ public class Motor {
 	
 	
 	
-	
+	public void motorBilgileriniYazdir() {
+		System.out.println("motorHacmi: " + this.motorHacmi + "\nsaseNo: " + this.saseNo +"\nyakitTuketimi: " + this.yakitTuketimi + "\n******");
+	}
 	
 	
 	
