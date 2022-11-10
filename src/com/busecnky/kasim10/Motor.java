@@ -1,4 +1,4 @@
-package com.busecnky.kasim9.constructor;
+package com.busecnky.kasim10;
 
 
 public class Motor {
@@ -7,14 +7,6 @@ public class Motor {
 	private int motorHacmi;
 	private String saseNo;
 	private int yakitTuketimi;
-	
-	//Constructor: Nesnelerin ilk oluşumu sırasında çağırılan metota denir.
-	//public olsun void int falan olmasın ne değer vermek istiyorsak onu oluşturalım
-	
-	//Yazılımcı class içinde hiç bir constructor oluşturmazsa eğer java bizim için default olarak otomatik boş constructor oluşturur.
-	//Ancak:
-	//Yazılımcı içine herhangi bir/birden fazla parametre alan bir constructor tanımlarsa Java otomatik constructor oluşturmaz.
-	//Bu durumda boş constructor'a ihtiyaç duyarsanız sizin manuel olarak boş constructor oluşturmanız gerekebilir.
 	
 	//Constructor 1
 	public Motor(int motorHacmi, String saseNo, int yakitTuketimi) {
