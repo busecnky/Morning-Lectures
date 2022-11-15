@@ -33,13 +33,13 @@ public class Motor {
 
 
 	public void motorBilgileriniYazdir() {
-		System.out.println("motorHacmi: " + this.motorHacmi + "\nsaseNo: " + this.saseNo +"\nyakitTuketimi: " + this.yakitTuketimi + "\n******");
+		System.out.println("motorHacmi: " + this.motorHacmi + "\nsaseNo: " + this.saseNo +"\nyakitTuketimi: " + this.yakitTuketimi);
 	}
 
 	
 	
 	public String getAllMotorBilgileri() {
-		String s = "motorHacmi: " + this.motorHacmi + "\nsaseNo: " + this.saseNo +"\nyakitTuketimi: " + this.yakitTuketimi + "\n******";
+		String s = " motorHacmi: " + this.motorHacmi + "\nsaseNo: " + this.saseNo +"\nyakitTuketimi: " + this.yakitTuketimi ;
 		return s;
 	}
 	
@@ -51,7 +51,7 @@ public class Motor {
 	}else {
 		System.out.println("Motor hacmi 800-10000 dışında girdiğiniz için 800 olarak ayarlanmıştır!");
 		this.motorHacmi = 800;  
-	}
+		}
 	}
 	
 	

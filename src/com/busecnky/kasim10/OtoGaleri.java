@@ -27,9 +27,37 @@ public class OtoGaleri {
 	
 	
 	
+	public int findCount(String marka) {
+		int counter = 0;
+		for (int i = 0; i < galeridekiOtomobilSayisi; i++) {
+			if(this.otomobilDizisi[i].getMarka().equalsIgnoreCase(marka)) {
+				counter++;
+			}
+		}
+		return counter;
+	}
 	
 	
 	
+	
+	public Otomobil[] search(String marka) {
+		//count = aranan marka otomobil sayısı kadardır..
+		int count = this.findCount(marka);
+		
+		Otomobil[] aramaSonuclari = new Otomobil[count];
+		
+		int sayac = 0;
+		for (int i = 0; i < galeridekiOtomobilSayisi; i++) {
+			
+			if(this.otomobilDizisi[i].getMarka().equalsIgnoreCase(marka)) {
+				aramaSonuclari[sayac] = this.otomobilDizisi[i];
+				sayac++;
+			}
+		}
+		return aramaSonuclari;
+	}
+	
+
 	//sayaç yerine galeridekiOtomobilSayisi yazdık!!
 	
 
@@ -48,7 +76,7 @@ public class OtoGaleri {
 		System.out.println("\n\n" + this.galeriAdi + " galerisindeki otomobiller listesi: (kapasite: " + otomobilDizisi.length + ")" + 
 							"\n(Galerideki anlık otomobil sayısı: " + this.galeridekiOtomobilSayisi + ")");
 		
-		for (int i = 0; i < (galeridekiOtomobilSayisi); i++) {
+		for (int i = 0; i <galeridekiOtomobilSayisi ; i++) {
 			System.out.println(otomobilDizisi[i].getMarka() + " " + otomobilDizisi[i].getModel()); //--> null.getMarka()=> Hata verir.
 		}
 			

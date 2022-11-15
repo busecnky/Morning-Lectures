@@ -110,11 +110,13 @@ public class VeriTipleriString {
 		System.out.println(metin.toUpperCase());
 
 		// toUpperCase(locale.ENGLISH) //İngilizce'de i => I
-		// toUpperCase(new locale("tr", "TR") //Trükçede i => İ
+		// toUpperCase(new locale("tr", "TR") //Türkçede i => İ
 
 		String kullAdi = "admin";
+		String kullAdi2 = "çşıöğ";
 		System.out.println(kullAdi.toUpperCase(Locale.ENGLISH));
 		System.out.println(kullAdi.toUpperCase(new Locale("tr", "TR")));
+		
 
 		// 7-valueOf
 		//
